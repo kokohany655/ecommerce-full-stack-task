@@ -1,33 +1,33 @@
 [
     {
         "id":1,
-        "title":"product 1",
+        "title":"Air Pods",
         "imageUrl":"https://tse4.mm.bing.net/th?id=OIP.3W4k7PO0CzL5f_19KYazMgHaEL&pid=Api&P=0",
-        "description":"this is product1",
+        "description":"This air pods so great quality and great base",
         "price":30,
         "size":["s" ,"m"]
     },
     {
         "id":2,
-        "title":"product 2",
+        "title":"Keyboard",
         "imageUrl":"https://techcrunch.com/wp-content/uploads/2021/02/keyboard.jpg",
-        "description":"this is product2",
+        "description":"this is keyboard make you feel confortable when you typing",
         "price":45,
         "size":["s" ,"m"]
     },
     {
         "id":3,
-        "title":"product 3",
+        "title":"Mouse",
         "imageUrl":"https://tse1.mm.bing.net/th?id=OIP.PnkUBfVNM5i4d01mUIr54QHaDt&pid=Api&P=0",
-        "description":"this is product3",
+        "description":"this is mouse for gamers and there's RGB light",
         "price":200,
         "size":["s" ,"m"]
     },
     {
         "id":4,
-        "title":"product 4",
+        "title":"Laptop",
         "imageUrl":"https://tse2.mm.bing.net/th?id=OIP.QPsoflqi5ulhIbTyu2QGjgHaFA&pid=Api&P=0",
-        "description":"this is product4",
+        "description":"laptop core i7 GEN7 RAM 16 1T SSD",
         "price":12000,
         "size":["s" ,"m"]
     }
