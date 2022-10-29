@@ -1,14 +1,20 @@
-import { Container } from "@chakra-ui/react";
+import { Container, Flex, Text } from "@chakra-ui/react";
+import { useState } from "react";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Product from "./components/Product";
+import data from './data.json'
 
 function App() {
+  const [products, setProducts] = useState(data)
   return (
     <div className="layout">
       <NavBar className='header'/>
-      <Container maxW={{xl : 'container.xl' , lg:'container.lg' , md:'container.md' , sm:'container.sm'}} className="main">
-        <Product/>
+      <Container my='40px' maxW={{xl : 'container.xl' , lg:'container.lg' , md:'container.md' , sm:'container.sm'}} className="main">
+        <Flex justifyContent={'space-between'}>
+        <Product products={products} w='60%'/>
+        <Text w='30%' ml='50px'>Filter</Text>
+        </Flex>
       </Container>
       <Footer className='footer'/>
     </div>
