@@ -1,5 +1,6 @@
-import { Container, Flex, Text } from "@chakra-ui/react";
+import { Box, Container, Flex, Text } from "@chakra-ui/react";
 import { useState } from "react";
+import Filter from "./components/Filter";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Product from "./components/Product";
@@ -12,8 +13,8 @@ function App() {
       <NavBar className='header'/>
       <Container my='40px' maxW={{xl : 'container.xl' , lg:'container.lg' , md:'container.md' , sm:'container.sm'}} className="main">
         <Flex justifyContent={'space-between'}>
-        <Product products={products} w='60%'/>
-        <Text w='30%' ml='50px'>Filter</Text>
+        <Product products={products}/>
+        <Filter />
         </Flex>
       </Container>
       <Footer className='footer'/>
