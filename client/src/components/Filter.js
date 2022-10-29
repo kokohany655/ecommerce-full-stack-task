@@ -3,7 +3,7 @@ import React from 'react'
 
 const Filter = () => {
   return (
-    <Box w='20%' ml='50px'>
+    <Box w='25%' ml='50px'>
     <Text fontSize={'30px'} fontWeight='500' mb='20px'>Filter</Text>
     <Box mb='15px'>
     <Text>Size</Text>
@@ -21,7 +21,7 @@ const Filter = () => {
     <Select>
         <option value='Latest'>Latest</option>
         <option value='Lower'>Lower</option>
-        <option value='Highest'>Hightest</option>
+        <option value='Highest'>Highest</option>
     </Select>
     </Box>
     </Box>

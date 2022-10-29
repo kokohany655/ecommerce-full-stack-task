@@ -13,7 +13,7 @@ function App() {
       <NavBar className='header'/>
       <Container my='40px' maxW={{xl : 'container.xl' , lg:'container.lg' , md:'container.md' , sm:'container.sm'}} className="main">
         <Flex justifyContent={'space-between'}>
-        <Product products={products} w='60%'/>
+        <Product products={products}/>
         <Filter/>
         </Flex>
       </Container>
